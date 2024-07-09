@@ -82,36 +82,65 @@ address span:hover{
 }
 
 
-    /*..... MEDIA QUERY .......*/
-
+    /*..... MEDIA QUERY .......*/@media (min-width:1200px) {
+    .roww-1 .rotating-head{
+        left: 19vw;    
+    }
+    .rotate-image{
+        width: 150px;
+        height: 250px;
+         right: 10%;
+    }
+ }
 @media(max-width:1200px){
     .description{
-        font-size: 20px;
+        font-size: 15px;
     }
+    .rotate-image{
+        width: 130px;
+        height: 230px;
+        right: 11%;
+    }
+
 }
 
 @media (max-width:992px){
     .rotate-image{
-        width: 90px;
-        height: 200px;
+        width: 120px;
+        height: 220px;
+        right: 9%;
     }
     .roww-1 .rotating-head{
-        left: 36vw;
+        left: 40vw;
     }
     .footer row{
         font-size: 20px;
         padding: 50px;
     }
 }
-@media (max-width:576px){
+@media (max-width:792px) {
     .rotate-image{
-        width: 50px;
-        height: 150px;
+        width: 100px;
+        height: 200px;
+        right: 9.5%;
     }
-    .roww-1{
+    .roww-1 .rotating-head{
+        left: 40vw;
+    }
+    
+}
+@media (max-width:576px){
+    .rotate-image img{
+        width: 60px;
+        height: 160px;
+      margin-right: 40px;
+    }
+    .roww-1 .rotating-head{
+        left: 37.5vw;
+        
+    }
+     .roww-1{
         height: 400px;
     }
   
 }
-
-             /* ---------------------- */
